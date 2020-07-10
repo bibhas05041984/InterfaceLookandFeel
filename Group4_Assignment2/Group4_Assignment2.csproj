@@ -4,4 +4,24 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Remove="wwwroot\css\bootstrap.min.css" />
+    <Content Remove="wwwroot\css\templatemo-style.css" />
+    <Content Remove="wwwroot\css\animate.min.css" />
+    <Content Remove="wwwroot\css\font-awesome.min.css" />
+    <Content Remove="wwwroot\js\jquery.singlePageNav.min.js" />
+    <Content Remove="wwwroot\js\typed.js" />
+    <Content Remove="wwwroot\js\wow.min.js" />
+    <Content Remove="wwwroot\js\custom.js" />
+    <Content Remove="wwwroot\js\bootstrap.min.js" />
+    <Content Remove="wwwroot\js\jquery.js" />
+    <Content Remove="wwwroot\sandwich.jpg" />
+    <Content Remove="wwwroot\wine.jpg" />
+    <Content Remove="Pages\Privacy %28copy%29.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Content\" />
+    <Folder Include="Images\" />
+    <Folder Include="wwwroot\images\" />
+  </ItemGroup>
 </Project>
